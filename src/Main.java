@@ -34,6 +34,7 @@ public class Main {
             System.out.println("Inicializando Diccionario ...");
             System.out.println(" ... ");
 
+            // Dependiendo el tipo de diccionario se incializa las palabras en ingles o español
             if (tipoDiccionario == 0){
                 diccionario.agregarPalabra("tigre", "tiger");
                 diccionario.agregarPalabra("manzana", "apple");
@@ -138,6 +139,10 @@ public class Main {
                 diccionario.agregarPalabra("ocean", "océano");
             }
 
+            System.out.println("Diccionario Inicializado con éxito.");
+            System.out.println(" ... ");
+
+
 //            System.out.println("PRUEBAS CRUD");
 //            diccionario.agregarPalabra("ocean", "mar");
 //            diccionario.buscarPalabra("ocean");
@@ -150,10 +155,8 @@ public class Main {
 //            diccionario.buscarPalabra("mujer");
 
 
-            System.out.println("Diccionario Inicializado con éxito.");
-            System.out.println(" ... ");
 
-            System.out.println(diccionario.getDiccionario());
+//            System.out.println(diccionario.getDiccionario());
 
             // Luego de conocer en qué idioma se desea hacer la prueba, se debe elegir el nivel de exigencia,
             // indicando en que cantidad de palabras deseas ser evaluado.
@@ -182,6 +185,7 @@ public class Main {
             ArrayList <String> asiertos = new ArrayList<>();
             ArrayList <String> errores = new ArrayList<>();
 
+            // Recibe las palabras y las evalia para determinar si es acierto o error y hacer su respectiva acción.
             for (int i = 0; i < palabrasRandomPrueba.length; i++) {
                 System.out.println("Respuesta " + i + " a palabra -> " + palabrasRandomPrueba[i]);
                 respuestasUsuario[i] = input.next();
@@ -193,6 +197,8 @@ public class Main {
                     errores.add("Palabra Random: " + palabrasRandomPrueba[i] +  " || Respuesta Usuario: " + respuestasUsuario[i] + " || Respuesta Correcta: " + diccionario.getPalabra(palabrasRandomPrueba[i]));
                 }
             }
+
+            // Respuestas de asiertos y errores
 
             System.out.println("Usted Tuvo <" + contadorAsiertos + "/" + cantidadPalabras +"> asiertos. Conozca sus aciertos a continuación.");
 

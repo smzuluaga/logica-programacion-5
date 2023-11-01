@@ -4,6 +4,7 @@ import java.util.Map;
 
 public class Diccionario {
 
+    // inicializacion de variables
     private int tipo;
     private String idiomaFrom;
     private String idiomaTo;
@@ -11,9 +12,8 @@ public class Diccionario {
     private ArrayList<String> palabrasEnglish = new ArrayList<String>();
     private ArrayList<String> palabrasSpanish = new ArrayList<String>();
 
-//    public Diccionario () {
-//    }
 
+    // inicializacion del constructor
     public Diccionario (int tipo){
         if (tipo == 0) {
             this.idiomaFrom = "spanish";
@@ -26,6 +26,7 @@ public class Diccionario {
         }
     }
 
+    // inicializacion de métodos y definición del comportamiento
     public void verIdiomas(){
         System.out.println( "El diccionario está traduciendo de: " + idiomaFrom + " a " + idiomaTo);
     }
@@ -87,7 +88,6 @@ public class Diccionario {
 
         }
     }
-
 
     // método para eliminar palabras
     public void eliminarPalabra(String palabraEliminada){
