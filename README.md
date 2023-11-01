@@ -2,7 +2,7 @@
 
 Bienvenidos a la prueba de Inglés de Duolingo Para la correcta ejecición del código, debe seguir las siguientes instrucciones: 
 
-INSTRUCCIONES TÉCNICAS PARA INICIALIZAR LA PRUEBA
+## INSTRUCCIONES TÉCNICAS PARA INICIALIZAR LA PRUEBA
 1. Ejecutar el siguiente comando en la terminal.
 
                           git clone https://github.com/smzuluaga/logica-programacion-5.git 
@@ -10,7 +10,7 @@ INSTRUCCIONES TÉCNICAS PARA INICIALIZAR LA PRUEBA
 2. Abrir el IDE de Java, en mi caso uso IntelliJ Idea, y abrimos el proyecto, que es el repositorio que acabamos de clonar.
 3. Ejecutar el proyecto desde la clase Main, y seguir las 'INSTRUCCIONES DE LA PRUEBA' <br><br>
 
-INSTRUCCIONES DE LA PRUEBA.
+## INSTRUCCIONES DE LA PRUEBA.
 1. Elegir un tipo de diccionario: 0 -> español ó 1 -> inglés. 
 2. Usted puede elegir el nivel de exigencia de la prueba al elegir la cantidad de palabras a evaluar entre 1 y 50. 
 3. Si se inicializa un diccionario en español, las palabras evaluadas saldrán en español y deberás responder su significado en ingles. 
