@@ -8,7 +8,7 @@ INSTRUCCIONES TÉCNICAS PARA INICIALIZAR LA PRUEBA
                           git clone https://github.com/smzuluaga/logica-programacion-5.git 
 
 2. Abrir el IDE de Java, en mi caso uso IntelliJ Idea, y abrimos el proyecto, que es el repositorio que acabamos de clonar.
-3. Ejecutar el proyecto desde la clase Main, y seguir las 'INSTRUCCIONES DE LA PRUEBA'
+3. Ejecutar el proyecto desde la clase Main, y seguir las 'INSTRUCCIONES DE LA PRUEBA' <br><br>
 
 INSTRUCCIONES DE LA PRUEBA.
 1. Elegir un tipo de diccionario: 0 -> español ó 1 -> inglés. 
