@@ -1,4 +1,4 @@
-# Lógica-programacion-5 - Diciconario Inglés - Español <hr>
+#  Diciconario Inglés - Español <hr>
 
 Bienvenidos a la prueba de Inglés de Duolingo Para la correcta ejecición del código, debe seguir las siguientes instrucciones: 
 1. Elegir un tipo de diccionario: 0 -> español ó 1 -> inglés. 
