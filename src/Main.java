@@ -16,9 +16,11 @@ public class Main {
                     responder su significado en español.
                 3. Cuando su respuesta sea en español, ¡LA ORTOGRAFÍA CUENTA! las tíldes hacen la diferencia entre un acierto
                     y un error.
+                4. Puede recibir palabras repetidas en su evaluación.
         */
 
         //Solicitud de tipo de diccionario para inicializar el mismo
+        System.out.println("******************** BIENVENIDO AL TEST DE INGLÉS DUOLINGO ********************\n");
         System.out.println("Elija un tipo de diccionario para realizar la prueba");
         System.out.println("Digite < 0 > para realizar la prueba en español e inicializar un diccionario español-inglés");
         System.out.println("Digite < 1 > para realizar la prueba en inglés e inicializar un diccionario inglés-español");
