@@ -17,4 +17,4 @@ INSTRUCCIONES DE LA PRUEBA.
 6. Puede recibir palabras repetidas en su evaluación.
 
    
-                                                       ! B U E N A   S U E R T E !
+                          ! B U E N A   S U E R T E !
