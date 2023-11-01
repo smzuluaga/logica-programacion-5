@@ -4,7 +4,7 @@ Bienvenidos a la prueba de Inglés de Duolingo Para la correcta ejecición del c
 
 INSTRUCCIONES TÉCNICAS PARA INICIALIZAR LA PRUEBA
 1. Ejecutar el siguiente comando en la terminal.
-   git clone https://github.com/smzuluaga/logica-programacion-5.git
+   ! git clone https://github.com/smzuluaga/logica-programacion-5.git
 3. Abrir el IDE de Java, en mi caso uso IntelliJ Idea, y abrimos el proyecto, que es el repositorio que acabamos de clonar.
 4. Ejecutar el proyecto desde la clase Main, y seguir las 'INSTRUCCIONES DE LA PRUEBA'
 
@@ -17,4 +17,4 @@ INSTRUCCIONES DE LA PRUEBA.
 6. Puede recibir palabras repetidas en su evaluación.
 
    
-                          ! B U E N A   S U E R T E !
+                                                    ! B U E N A   S U E R T E !
